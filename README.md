@@ -26,6 +26,6 @@ Once a winner is chosen and the prize is awarded, the contract resets itself for
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Acknowledgements
-- [Building a Lottery Smart Contract: A Step-by-Step Guide for Beginners - Daniel Pham](https://medium.com/coinmonks/building-a-lottery-smart-contract-a-step-by-step-guide-for-beginners-7607620f08c9)
+- ["Building a Lottery Smart Contract: A Step-by-Step Guide for Beginners" by Daniel Pham](https://medium.com/coinmonks/building-a-lottery-smart-contract-a-step-by-step-guide-for-beginners-7607620f08c9)
 - [Solidity docs](https://docs.soliditylang.org/en/v0.8.21/)
 - [Remix IDE](https://remix.ethereum.org/)
