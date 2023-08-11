@@ -23,7 +23,7 @@ Once a winner is chosen and the prize is awarded, the contract resets itself for
 5. **Round Reset:** After awarding the prize, the contract resets itself, preparing for the next round of participation.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcomed through pull requests. For significant changes, please start by opening an issue to discuss your proposed alterations.
 
 ## Acknowledgements
 - ["Building a Lottery Smart Contract: A Step-by-Step Guide for Beginners" by Daniel Pham](https://medium.com/coinmonks/building-a-lottery-smart-contract-a-step-by-step-guide-for-beginners-7607620f08c9)
