@@ -1,28 +1,26 @@
-REMIX DEFAULT WORKSPACE
+# Lottery Smart Contract
+The Lottery smart contract demonstrates the power of blockchain by providing a decentralized platform for organizing lotteries. It brings transparency and fairness to the process, eliminating the need for intermediaries.
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+## Core Components
+### Prize Pool and Eligible Players
+The smart contract features a prize pool where participants contribute funds. Individuals become eligible players by sending a specific amount of cryptocurrency to the contract.
 
-This workspace contains 3 directories:
+### Winner Selection
+The contract manager, usually the contract creator, has the authority to initiate the winner selection process. This process is designed to be fair and unbiased.
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+### Round Reset
+Once a winner is chosen and the prize is awarded, the contract resets itself for the next round. This ensures that the lottery remains continuous and accessible to new participants.
 
-SCRIPTS
+## How It Works
+1. **Participants Join:** Individuals interested in participating in the lottery send a specified amount of cryptocurrency to the contract.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+2. **Manager's Role:** The contract manager is responsible for triggering the winner selection process. This step ensures that only authorized individuals can determine the winner.
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+3. **Winner Selection:** The contract uses a method to randomly select a winner from the list of eligible players. This random selection adds an element of unpredictability and fairness.
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+4. **Prize Award:** The selected winner is awarded the entire prize pool. This step is executed transparently on the blockchain, ensuring accuracy and accountability.
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+5. **Round Reset:** After awarding the prize, the contract resets itself, preparing for the next round of participation.
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+## Credit
+This concise GitHub Readme is inspired by the Medium article titled "Walkthrough of the Lottery Mechanism," authored by Daniel (danillion). The content has been summarized and organized to offer a quick understanding of the Lottery smart contract's key components and operation. For a comprehensive understanding, we recommend referring to the original Medium article.
