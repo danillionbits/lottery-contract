@@ -12,6 +12,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "enroll",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
 					{
@@ -98,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/Lottery.sol": {
-			"keccak256": "0xf961266e55842d9ca02793dde9327d27aa922df2df24bda57d6335d51d2f1f86",
+			"keccak256": "0x94b6ce16c275cdbcd24cda2147ee6cf0e5a00c4c0903ca9d354b543cf1fbb286",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://de94df416864230ff6b88331614e7758f8b9ca738396228c18fd9d96b3448d81",
-				"dweb:/ipfs/QmXixM149LmXxSntG8FsVVduwtZ3B91cZ666Jt4nkwrxiw"
+				"bzz-raw://fd38b9516276a96fcabc7c9a70ba74314da3c28f32308c06af8db19b4da58062",
+				"dweb:/ipfs/QmWKmCdQBnwnqS5HY2fL6bvBfVmcKwJWK7Dw7nb3QGZSfH"
 			]
 		}
 	},
