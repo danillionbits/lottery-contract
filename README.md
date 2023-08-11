@@ -1,16 +1,6 @@
 # Lottery Smart Contract
 The Lottery smart contract demonstrates the power of blockchain by providing a decentralized platform for organizing lotteries. It brings transparency and fairness to the process, eliminating the need for intermediaries.
 
-## Components
-### Prize Pool and Eligible Players
-The smart contract features a prize pool where participants contribute funds. Individuals become eligible players by sending a specific amount of cryptocurrency to the contract.
-
-### Winner Selection
-The contract manager, usually the contract creator, has the authority to initiate the winner selection process. This process is designed to be fair and unbiased.
-
-### Round Reset
-Once a winner is chosen and the prize is awarded, the contract resets itself for the next round. This ensures that the lottery remains continuous and accessible to new participants.
-
 ## Usage
 1. **Participants Join:** Individuals interested in participating in the lottery send a specified amount of cryptocurrency to the contract.
 
